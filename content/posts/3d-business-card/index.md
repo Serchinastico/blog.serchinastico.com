@@ -2,7 +2,7 @@
 title = '3D business Card in CSS and JS'
 description = "Learn how to build a 3D business card with just CSS and JS for your personal webpage"
 summary = "Learn how to build a 3D business card with just CSS and JS for your personal webpage. We will learn about CSS transforms and animations, and we will animate it to follow the user's scroll."
-images = ["assets/transform_origin.png"]
+resources = ["assets/transform_origin.png"]
 keywords = ["CSS", "JavaScript", "Programming"]
 date = 2023-09-25T12:23:09+02:00
 draft = false
