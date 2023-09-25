@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on blog.serchinastico</title>
+    <link>https://blog.serchinastico.com/posts/</link>
+    <description>Recent content in Posts on blog.serchinastico</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Sep 2023 12:23:09 +0200</lastBuildDate><atom:link href="https://blog.serchinastico.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3D business Card in CSS and JS</title>
+      <link>https://blog.serchinastico.com/posts/3d-business-card/</link>
+      <pubDate>Mon, 25 Sep 2023 12:23:09 +0200</pubDate>
+      
+      <guid>https://blog.serchinastico.com/posts/3d-business-card/</guid>
+      <description>Learn how to build a 3D business card with just CSS and JS for your personal webpage. We will learn about CSS transforms and animations, and we will animate it to follow the user&amp;rsquo;s scroll.</description>
+    </item>
+    
+  </channel>
+</rss>
