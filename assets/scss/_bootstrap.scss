@@ -41,7 +41,7 @@ $link-color:                        $link !default;
 $link-color-dark:                   $light !default;
 $link-hover-color-dark:             $light-600 !default;
 
-$code-color: $brand;
+$code-color:                        $brand !default;
 
 $container-max-widths: (
   sm: 540px,

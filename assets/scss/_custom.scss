@@ -2,6 +2,12 @@
     font-family: "Georama", sans-serif;
 }
 
+h1 {
+    font-family: "Epilogue", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
 a code {
     color: $brand;
     text-decoration: underline;
@@ -9,4 +15,9 @@ a code {
 
 a {
     font-weight: 600;
+}
+
+h1 a {
+    font-weight: unset;
+    color: unset;
 }

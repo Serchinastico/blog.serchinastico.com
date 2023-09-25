@@ -7,8 +7,6 @@ date = 2023-09-25T12:23:09+02:00
 draft = false
 +++
 
-# 3D Business card
-
 # Intro
 
 In this post I want to talk about how I created the 3D effect on my digital business card. Although you can use this very same technique with any cube-like object, really. I wanted to use a vanilla browser stack so only plain CSS transforms and some basic JavaScript is required.
