@@ -219,5 +219,5 @@ This worked moderately well in small tests but when I tried porting it to a bigg
 
 - [My take on flow fields on a web browser](https://flowfields.serchinastico.com/) - My own implementation of flow fields, it has many visualization options (the ones I personally wanted to research).
 - [The repository for flowfields.serchinastico.com](https://github.com/Serchinastico/flow-fields) - It’s open source! Fork it and make your own rules.
-- [OpenSimplex noise](https://en.wikipedia.org/wiki/OpenSimplex_noise)
+- [OpenSimplex noise](https://en.wikipedia.org/wiki/OpenSimplex_noise) - An alternative to Perlin noise generators.
 - [Flow Fields, Part 1](https://medium.com/@bit101/flow-fields-part-i-3ebebc688fd8), [Flow Fields, Part 2](https://medium.com/@bit101/flow-fields-part-ii-f3c24c1b777d) and [Strange Attractors Flow Fields](https://www.bit-101.com/blog/2021/10/strange-attractor-flow-fields/) - Bit101 (or Keith Peters) has been my greatest inspiration to start playing with flow fields. I could say this blogpost is mostly his work with me notes. He has a ton of fantastic blog posts if you want to go deeper into this topic.
