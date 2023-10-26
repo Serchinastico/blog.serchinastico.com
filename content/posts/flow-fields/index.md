@@ -10,7 +10,7 @@ draft = false
 
 # The theory
 
-I spent the last week playing with a physical concept that fascinates me and is widely used in the generative art world: [flow (or vector) fields](https://en.wikipedia.org/wiki/Vector_field) (a.k.a. flow fields).
+I spent the last week playing with a physical concept that fascinates me and is widely used in the generative art world: [flow fields](https://en.wikipedia.org/wiki/Vector_field) (a.k.a. vector fields).
 
 Simply put, a flow field is nothing but a lot of arrows thrown in a plane. If we want to be more technical, a flow field is a function that returns a vector for every point in the space.
 
@@ -22,22 +22,24 @@ For generative purposes, there are many ways you can define such a field, you ca
 
 ![Credit to Paul Burke for this the beautiful visualization of a Peter de Jong Attractor](assets/paul_burke.png)
 
-Credit to Paul Burke for this the beautiful visualization of a Peter de Jong Attractor
+> _Credit to Paul Burke for this the beautiful visualization of a Peter de Jong Attractor_
 
-# THE SIMULATION
+# The simulation
 
 Let’s move onto creating beautiful visuals with flow fields. Again, there are many ways we can approach the simulation but in this post I’ll focus on simulating particles in a 2D field. In order to do that, we will use a canvas node, create an array of particles - randomly distributed in the canvas - and draw them.
 
-```jsx
+```html
 <html>
-	<head><!-- metas, imports, etc --></head>
-	<body>
-		<canvas id="canvas"></canvas>
-	</body>
+  <head>
+    <!-- metas, imports, etc -->
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+  </body>
 </html>
 ```
 
-```jsx
+```js
 // Get the canvas and its context to draw things on it
 const canvas = document.querySelector("#canvas");
 const context = canvas.getContext("2d");
@@ -72,11 +74,11 @@ particles.forEach((particle) => {
 
 ![Slowly getting there, a thousand particles ready to be in motion](assets/dots.png)
 
-Slowly getting there, a thousand particles ready to be in motion
+> _Slowly getting there, a thousand particles ready to be in motion_
 
 Once that’s done, we will start moving the particles following the flow field direction. For each particle, we get the vector in its position, move the particle following that vector and draw a line from the previous position of the particle, to the new one. We are adding some code to account for velocity, friction and so on, in order to make the simulation more physically accurate.
 
-```jsx
+```js
 context.lineWidth = 0.1;
 
 const render = () => {
@@ -118,7 +120,7 @@ requestAnimationFrame(render);
 
 We define the flow field function using a de Jong Attractor:
 
-```jsx
+```js
 const a = Math.random() * 8 - 4;
 const b = Math.random() * 8 - 4;
 const c = Math.random() * 8 - 4;
@@ -153,7 +155,7 @@ With this, we have the core of our simulation working. If you want to continue i
 - **Particle recreation** - Once you play with flow fields for a while you will see some particles find a stable spot and stop contributing to the visuals. You can find particles that stopped moving and place them in a random spot again. Or why do we wrap the space? Once a particle leaves the screen we can recreate it somewhere else.
 - **Dimensions** - To make things simple we only represented the field in 2D space, but there is so much more you can do with these functions. You can simulate particles in a three dimensional space, or even better, account for time and make the flow field function slightly change over time.
 
-# THE REAL WORLD
+# The real world
 
 Finally, let’s make this nice visualisation tangible! To me this is the most exciting (and sometimes frustrating) part of the process and the one with the hardest/more creative problems. Now we could just print the graphic in our classic printer but that wouldn’t be much fun. Instead, we’ll transform our simulation into something we can feed a [CNC](https://en.wikipedia.org/wiki/Numerical_control).
 
@@ -163,7 +165,7 @@ In order to do that, we need a way to transform the particle paths into [G-code]
 
 Now, if you try to transform our simulation into SVG directly you will notice that our output files are huge. That’s where libraries like [simplify-path](https://github.com/mattdesl/simplify-path) and [fit-curve](https://github.com/soswow/fit-curve) appear. The first one immensely reduces the number of intermediate points in our simulation and the second one finds [bezier curves](https://en.wikipedia.org/wiki/B%C3%A9zier_curve) to fit the paths (and therefore smooths the resulting line).
 
-```jsx
+```js
 const paths = [];
 particles.forEach((particle) => {
   paths.push([]);
@@ -203,7 +205,17 @@ The resulting SVG is quite big, but still manageable. With it, I used [DrawingBo
 
 ![Pen Plotter Flow Field](assets/pen_plotter.jpg)
 
-# REFERENCES
+# The bloopers
+
+I also tried using the laser in a more creative way. I covered a piece of wood with many layers of paint, creating a fire-like gradient, to later use the laser to peel off the layers.
+
+| gradient                               | engraving                             | result                            |
+| -------------------------------------- | ------------------------------------- | --------------------------------- |
+| ![Color gradient](assets/gradient.jpg) | ![Laser timelapse](assets/laser.webp) | ![Laser result](assets/laser.jpg) |
+
+This worked moderately well in small tests but when I tried porting it to a bigger piece, it wouldn't work.
+
+# References
 
 - [My take on flow fields on a web browser](https://flowfields.serchinastico.com/) - My own implementation of flow fields, it has many visualization options (the ones I personally wanted to research).
 - [The repository for flowfields.serchinastico.com](https://github.com/Serchinastico/flow-fields) - It’s open source! Fork it and make your own rules.
