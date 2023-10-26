@@ -159,7 +159,7 @@ Finally, let’s make this nice visualisation tangible! To me this is the most e
 
 I use my CNC with two different tool heads nowadays: a pen plotter and a laser. We are going to use the first one to create a small piece of art.
 
-In order to do that, we need a way to transform the particle paths into [G-code](https://en.wikipedia.org/wiki/G-code#:~:text=G%2Dcode%20(also%20RS%2D,for%203D%2Dprinter%20slicer%20applications.) (which is one of the many formats CNC usually understand). Unfortunately, our HTML canvas does not know anything about G-code, but it does know about [SVG](https://en.wikipedia.org/wiki/SVG), which is a vector-based graphics format that can be easily transformed into robotic movements!
+In order to do that, we need a way to transform the particle paths into [G-code](https://en.wikipedia.org/wiki/G-code) (which is one of the many formats CNC usually understand). Unfortunately, our HTML canvas does not know anything about G-code, but it does know about [SVG](https://en.wikipedia.org/wiki/SVG), which is a vector-based graphics format that can be easily transformed into robotic movements!
 
 Now, if you try to transform our simulation into SVG directly you will notice that our output files are huge. That’s where libraries like [simplify-path](https://github.com/mattdesl/simplify-path) and [fit-curve](https://github.com/soswow/fit-curve) appear. The first one immensely reduces the number of intermediate points in our simulation and the second one finds [bezier curves](https://en.wikipedia.org/wiki/B%C3%A9zier_curve) to fit the paths (and therefore smooths the resulting line).
 
