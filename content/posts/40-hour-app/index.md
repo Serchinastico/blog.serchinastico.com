@@ -67,7 +67,7 @@ Despite the limitations, it perfectly suits my use case and, to me, there is no 
 - Finally, I’m going to reveal the big secret (you probably guessed it by now). It’s true it took me 40h to publish the app, but that doesn’t mean it took me a week of work. The reality is that work spanned for over ~3 weeks. Working few hours each day gave me truly interesting results:
     - **Focus**: While working on the app, I found myself truly focused at the task at hand, even the ones I didn’t truly enjoyed. Some call this to be [in the zone](https://en.wikipedia.org/wiki/Flow_(psychology)) and it has been extremely rare for me in the last year or so but with this project I was constantly *flowing*.
     - [**Red work - Blue work**](https://chemaclass.com/blog/red-work-blue-work/): Having long pauses between work times allowed for my mind to explore alternatives, solutions and problems without me putting much effort into it.
-    - **Satisfaction**: Putting life (e.g. appointments, vet visits, playing guitar etc) before work made the entire thing truly satisfying.
+    - **Satisfaction**: Putting life (e.g. appointments, vet visits, breakfast with wifey etc) before work made the entire thing truly satisfying.
 
 # The app
 
