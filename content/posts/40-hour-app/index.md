@@ -58,7 +58,7 @@ Despite the limitations, it perfectly suits my use case and, to me, there is no 
 # The pains
 
 - **Switching hats**: I had to switch roles frequently. Building things fast meant making mistakes. Lots of them. There was a *constant* struggle to keep everything synchronized that lasted just a day. Even so, I had to make numerous small decisions, and constantly switch between design and implementation, which ended up being both fun and exhausting.
-- **Play Store requirements**: I always feared publishing anything in the App Store. There are a lot of requirements and the app has to be manually reviewed by someone in their team and it’s not uncommon for your app to be rejected. I thought Google’s Play Store was more lenient, but I was so wrong. As of November of 2023, Google changed [their policies](https://support.google.com/googleplay/android-developer/answer/14151465?hl=en) to force personal accounts to run a closed beta with 20 testers for 14 days. For indie developers like me, finding 20 voluntaries to test the app was a true challenge (❤️ a huge thank you to all volunteers that came from https://guauful.com/ to test the app ❤️).
+- **Play Store requirements**: I always feared publishing anything in the App Store. There are a lot of requirements and the app has to be manually reviewed by someone in their team and it’s not uncommon for your app to be rejected. I thought Google’s Play Store was more lenient, but I was so wrong. As of November of 2023, Google changed [their policies](https://support.google.com/googleplay/android-developer/answer/14151465?hl=en) to force personal accounts to run a closed beta with 20 testers for 14 days. For indie developers like me, finding 20 voluntaries to test the app was a true challenge (❤️ a huge thank you to all volunteers that came from [guauful.com](https://guauful.com/) to test the app ❤️).
 - **Saying no (or later)**: To my surprise, there was a lot of interest in my app from testers. They provided invaluable feedback and ideas for improvement. However, I had to repeatedly prioritize and focus on solving my own problems before considering others'. I had to decline many interesting proposals. If this is seen as selfishness, it is because it is. But I also believe it has been a great way to test the plan, learn how to stay focused, and finish something.
 
 # The take-aways
@@ -71,4 +71,4 @@ Despite the limitations, it perfectly suits my use case and, to me, there is no 
 
 # The app
 
-![A video of the app showing the looks and different features it provides.](./assets/video.mp4)
+![A video of the app showing the looks and different features it provides.](./assets/video.gif)
