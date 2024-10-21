@@ -5,7 +5,7 @@ summary = "In this writeup I skim over the process to rewrite an existing app us
 resources = ["assets/four days.png"]
 keywords = ["App development", "Prototyping"]
 date = 2024-10-21T14:09:00+02:00
-draft = true
+draft = false
 +++
 
 # The context
