@@ -3,7 +3,7 @@ title = 'The 40-hour app'
 description = "My progress on publishing an app in 40 hours for both Android and iOS"
 summary = "Dive into the process I followed to create a new app from the ground up for both Android and iOS and publish it in the stores."
 resources = ["assets/trufario.png"]
-keywords = ["App development", "Prototyping"]
+keywords = ["App development", "Prototyping", "React Native", "App design"]
 date = 2024-08-28T14:09:00+02:00
 draft = false
 +++

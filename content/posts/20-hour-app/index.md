@@ -3,7 +3,7 @@ title = 'The 20-hour app'
 description = "How I rewrote my first React Native app in 20 hours"
 summary = "A rewrite of my first React Native app and a personal take on tooling for prototypes"
 resources = ["assets/four days.png"]
-keywords = ["App development", "Prototyping"]
+keywords = ["App development", "Prototyping", "React Native", "App design"]
 date = 2024-10-21T14:09:00+02:00
 draft = false
 +++
