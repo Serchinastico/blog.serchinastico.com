@@ -4,3 +4,10 @@ title = "blog.serchinastico"
 theme = 'writeonlyhugo-theme'
 [params]
   images = ["meta_preview.png"]
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
+
