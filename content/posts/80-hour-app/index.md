@@ -24,8 +24,7 @@ I've been able to keep my sanity mainly thanks to these two tools:
 
 1. **My own manuals and personal notes**. I epecially use this for my woodworking projects. Before starting a new project, I design it in a 3D program and then write a fully fledged manual including materials, dimensions, joints and details. This helps me anticipate the problems I might encounter and plan for them. At the end of the project, I tape the manual somewhere in the piece for future reference.
 
-Foto de un manual
-{.todo}
+![Manual I created for a piece of furniture](assets/manual.jpeg)
 
 # Pragmatics
 
