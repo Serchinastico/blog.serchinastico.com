@@ -22,7 +22,7 @@ I've been able to keep my sanity mainly thanks to these two tools:
 
 ![My Telegram saved messages](assets/telegram.gif)
 
-1. **My own manuals and personal notes**. I epecially use this for my woodworking projects. Before starting a new project, I design it in a 3D program and then write a fully fledged manual including materials, dimensions, joints and details. This helps me anticipate the problems I might encounter and plan for them. At the end of the project, I tape the manual somewhere in the piece for future reference.
+2. **My own manuals and personal notes**. I epecially use this for my woodworking projects. Before starting a new project, I design it in a 3D program and then write a fully fledged manual including materials, dimensions, joints and details. This helps me anticipate the problems I might encounter and plan for them. At the end of the project, I tape the manual somewhere in the piece for future reference.
 
 ![Manual I created for a piece of furniture](assets/manual.jpeg)
 
