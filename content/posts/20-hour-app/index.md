@@ -74,4 +74,4 @@ Following the essence of playful programming (meaning to solve my own problems) 
 
 If you have reached this far you probably see where this is heading: I've found my place in the world of prototyping and tiny apps. The realization didn't come easily - it took months, maybe even a year, to fully grasp. But now I'm confident this is the path I want to take.
 
-Here is the news: I'm setting up a studio focused on building mobile prototypes. It doesn't have a name, brand or webpage yet, but while I define all of that, maybe you need to validate an idea with real users, or you're seeking investors and want to show them how your project would actually feel. If any of this resonates with you, reach out at prototyping@serchinastico.com.
+Here is the news: I'm setting up a studio focused on building mobile prototypes. It doesn't have a name, brand or webpage yet, but while I define all of that, maybe you need to validate an idea with real users, or you're seeking investors and want to show them how your project would actually feel. If any of this resonates with you, reach out at prototyping {at} serchinastico {dot} com.

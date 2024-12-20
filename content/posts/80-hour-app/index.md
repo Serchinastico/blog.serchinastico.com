@@ -111,10 +111,7 @@ With the editor harnessed, I dedicated the remaining time on adding the usual ni
 
 # Did it myself!
 
-The app is now available in the Apple Store and is currently undergoing review in Android (the infamous ~~20~~ 12 testers in 14 days rule).
-
-Include links
-{.todo}
+The app is currently undergoing review in the Play Store (the infamous ~~20~~ 12 testers in 14 days rule) and Apple Store (which is going to be on holidays from the 22nd to the 28th of December) and will be most likely be available on January.
 
 This project was a true learning experience, reinforcing some of my core beliefs about development:
 
@@ -123,4 +120,4 @@ This project was a true learning experience, reinforcing some of my core beliefs
 - **Iterative Design** - Starting with a basic structure and gradually adding features allowed me to refine the app based on my evolving needs and insights.
 - **Value Non-Subscription Models** - Offering a one-time purchase option for core functionality allows users to access the full app experience without ongoing commitments. Do you like the app? It's your **forever**. On top of that, nobody will access your data and you won't have to think about recurring payments.
 
-This journey has solidified my desire to focus on building prototypes for others. If you're looking for quick, effective ways to bring your ideas to life, I'd love to help!  Reach out to me at prototyping@serchinastico.com and let's discuss how we can collaborate.
+This journey has solidified my desire to focus on building prototypes for others. If you're looking for quick, effective ways to bring your ideas to life, I'd love to help! Reach out to me at prototyping {at} serchinastico {dot} com and let's discuss how we can collaborate.
