@@ -111,7 +111,7 @@ With the editor harnessed, I dedicated the remaining time on adding the usual ni
 
 # Did it myself!
 
-The app is currently undergoing review in the Play Store (the infamous ~~20~~ 12 testers in 14 days rule) and Apple Store (which is going to be on holidays from the 22nd to the 28th of December) and will be most likely be available on January.
+The app is currently undergoing review in the Play Store (the infamous ~~20~~ 12 testers in 14 days rule) and Apple Store (which is going to be on holidays from the 22nd to the 28th of December) and will be most likely be available in January.
 
 This project was a true learning experience, reinforcing some of my core beliefs about development:
 
