@@ -28,6 +28,9 @@ This post isn't a pitch for Linguito though, and it’s more of a journal entry 
 
 ![Linguito in action](./assets/demo.gif)
 
+Check Linguito [here](https://github.com/Serchinastico/linguito)
+{.imgfootnote}
+
 So why [Linguito](https://github.com/Serchinastico/linguito)? Well, I've always had a soft spot for tooling - it's like having a well-organized workshop where everything has its place, and when everything is tidy, you can spend more time in what really matters. While Lingui is solid as a rock, I noticed some gaps in my workflow that I felt could be easily addressed:
 
 - **Missing translations** - I've made the mistake of publishing a version (or two) of my apps with untranslated strings. This happens because it feels very natural to use the final copies while coding, and I often forget about the extra step of translating them.
