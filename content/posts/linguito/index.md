@@ -132,3 +132,5 @@ After spending about a week putting all the pieces together, I've had some time 
 - **Part of the work on the studio** - This is one more building block in the foundation of the studio I'm creating, making the process of spinning up new React Native prototypes smooth as butter.
 
 Looking back at this little journey, Linguito started as a scratch for my own itch but ended up teaching me quite a bit about parsing, ASTs, and building proper CLI tools. It's far from perfect - and probably will always be - but it makes my day-to-day work with translations less of a hassle. If you're working with Lingui and bump into similar pain points, feel free to give it a shot or contribute your own ideas. The tool is still finding its feet, and I'm curious to see how it evolves with real-world usage.
+
+Happy translations!
