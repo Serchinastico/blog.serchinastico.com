@@ -66,27 +66,28 @@ While *deconstructing work* (bear with me, that's what I called it), I did my fa
   - Bonuses soon turns into politic games.
   - Shares are often used as a carrot on a stick to either keep employees in golden handcuffs if the company is public, or as a promise of a rich future otherwise.
   - Salary is sometimes adjusted to your location - effectively detaching it from your productivity/impact.
+  - Different roles have substantially different salaries, even when those roles are equally important for the outcomes of the company.
 
-There is a conclusion missing here
-{.todo}
-
-- **Impact**: I came to realise most of the work I do has little impact in today's world. I want to change this. I can't always decide the kind of projects I take to guide it towards this goal (specially at the beginning). What I've done is signing the [Giving What We Can pledge](https://www.givingwhatwecan.org/pledge). No matter the project I tackle, I know each one of them will help others in need.
-- **Organicity**:
+  There has to be better ways to pay for our work, one that aligns with our results, and reflects our efforts. Also, one that doesn't forcefully create classes.
+- **Impact**: I came to realise most of the work I do has little impact in today's world. I want to change this. I can't always decide the kind of projects I take to walk towards this goal (specially at the beginning). What I've done is signing the [Giving What We Can pledge](https://www.givingwhatwecan.org/pledge). No matter the project I tackle, I know each one of them will help others in need.
+- **Organicity**: I truly believe there are as many roles as persons are in this world. Someone might tag me as *just* a software developer but I see myself as much more. It took me ages to embrace my generalist skills and now I finally feel comfortable enough to safely explore other domains like design, product, security or marketing (also carpentry, artistry or writing, to name a few). From my experience, the best teams are those that work under this proposal, and are filled with **curious, multi-skilled individuals**, better yet when they are **purposefully small**.
 
 # What is Antropia Studio
 
-Antropia is a software development studio that embodies these principles, and it's much more. It's my personal commitment to these values, and it's my alter ego: the mechanism I found to openly talk about different ways of working and discussing alternative views on work organization.
+**Antropia is a cooperative software studio** that embodies these principles, and it's much more. It's my personal commitment to these values, and, while I'm the only member, it's my alter ego: the best mechanism I found to openly talk about different ways of working and discussing alternative views on work organization. There is a translation of forementioned principles into Antropia:
 
-The translation of these things into Antropia is quite direct:
+- **Novelty**: Antropia focuses on the initial steps of your projects. We create mobile apps and functional prototypes. Do you need to show your idea to investors? Maybe you just need to kickoff your project while you hire an in-house team. There is only one hard requirement: **projects can't last longer than 1 month**.
+- **Pride**: We do mobile apps, but we can also do web, backend, and design. We thrive when we have the full picture, and the best way to do this is by picking **entire projects**, rather than features. Extra points if there are multiple parts involved. We believe when these requirements are met something magical follows: **true collaboration**.
+- **Progress**: We work in our own tooling that eases and solves the problems we encounter. While others look for continuous integration and deployment, we look for continuous improvement. Needless to say, it only makes sense for the **tooling** we develop to be **open-source**.
+- **Fairness**: There are two ways to look at this: externally and internally. Externally, the only way to be fair is to be transparent: we work on a fixed rate for all clients, no bargaining. Internal fairness, is probably the policy that will take longer to be developed, if only because it's just me, for now. One thing is clear: it'll be up to all shareholders to decide what'll be the best compensation for our own work.
+- **Impact**: Because I joined [Giving What We Can](https://www.givingwhatwecan.org/), Antropia has joined it as well. That means 10% of our income will be donated to the organisations that can most effectively use it to improve the lives of others. On top of that, when - or if - there are conflicting schedules for projects, we will favor those that better aligns with our principles.
+- **Organicity**: Talk about cooperative and evolutionary principles
 
-- **Novelty**: Antropia will focus on the initial steps of your projects. We create mobile apps and functional prototypes. Do you need to show your idea to investors? Maybe you just need to kickoff your project while you hire an in-house team. There is only one hard requirement: **projects can't last longer than 1 month**.
-- **Pride**: We do mobile apps, but we can do web, backend, and design. We thrive when we have the full picture. We communicate, etc
-- **Progress**: We develop open-source tooling
-- **Fairness**: Talk about compensation (probably some multiplier for compensation). Talk about fixed rate for all clients.
-- **Impact**: Antropia has signed the Giving What We Can pledge. 10% of our income to the organisations that can most effectively use it to improve the lives of others.
-- **Organicity**: Cooperative and evolutionary
 
-Complete the above list
+# Why a cooperative?
+
+Talk about being only one, growing with a cooperative mindset, consent vs consensus and more.
+
 {.todo}
 
 # Inspirations
