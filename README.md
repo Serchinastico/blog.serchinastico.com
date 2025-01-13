@@ -1,15 +1,15 @@
 # blog.serchinastico.com
 
-My personal blog built with [Hugo](https://gohugo.io/).
+My personal blog built with [Astro](https://astro.build/).
 
 ## Development
 
-Install Hugo by following the [official installation steps](https://gohugo.io/getting-started/quick-start/#prerequisites).
+This project works with `node` and `npm`. Follow the [official docs](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) to install both.
 
 ### Local development
 
-Run `hugo server` to use Hugo to process all new content and hot reload your local page.
+Run `npm run dev` to compile the page and serve it locally. Astro will automatically reload on code/content changes.
 
 ### Production build
 
-Run `hugo` to process all files and place them in the `public` directory. Github pages automatically takes the contents from there.
+Run `npm run build` to compile all files and place them in the `dist` directory. Github pages will automatically take the contents of the blog from there.

@@ -1,0 +1,146 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import FormattedDate from '../components/FormattedDate.astro';
+
+type Props = CollectionEntry<'blog'>['data'];
+
+const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
+---
+
+<html lang="en">
+<head>
+    <BaseHead title={title} description={description}/>
+    <style>
+        main {
+            width: calc(100% - 2em);
+            max-width: 100%;
+            margin: 0;
+        }
+
+        .hero-image {
+            width: 100%;
+        }
+
+        .hero-image img {
+            display: block;
+            margin: 0 auto;
+            border-radius: 12px;
+        }
+
+        .prose {
+            width: calc(100% - 2em);
+            max-width: 900px;
+            margin: auto;
+            padding: 1em;
+            color: rgb(var(--gray-dark));
+
+            h1, h2, h3, h4 {
+                text-transform: uppercase;
+                font-weight: bold;
+                margin: 1em 0 0.1em;
+            }
+
+            h1 {
+                font-size: 2.5em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+
+            img {
+                margin: 2rem auto;
+                border-radius: 24px;
+            }
+
+            p {
+                margin-bottom: 1em;
+            }
+
+            ol, ul {
+                padding-left: 1.5em;
+                margin-bottom: 1em;
+            }
+
+            ol {
+                list-style: decimal;
+            }
+
+            ul {
+                list-style: disc;
+            }
+
+            pre {
+                margin: 1em 0;
+            }
+
+            code {
+                background-color: #2d2d2d;
+                color: #dfb047;
+                border-radius: 4px;
+            }
+
+            blockquote {
+                line-height: 1.2;
+            }
+
+            em {
+                font-size: 1.2rem;
+            }
+
+            hr {
+                width: 100%;
+            }
+
+            .footnote {
+                text-align: center;
+                font-style: italic;
+                color: #445566;
+                font-weight: lighter;
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<Header/>
+<main>
+    <article>
+        <div class="prose">
+            <div class="flex flex-col items-center mb-8">
+                <p class="font-black text-6xl md:text-8xl text-center !mb-2 uppercase">{title}</p>
+
+                <div class="hero-image">
+                  {heroImage && <img width={1020} height={510} src={heroImage} alt=""/>}
+                </div>
+
+                <p class="mt-8 !mb-2 text-base font-light text-gray-600">
+                    <FormattedDate date={pubDate}/>
+                  {
+                    updatedDate && (
+                                  <div>
+                                      Last updated on
+                                      <FormattedDate date={updatedDate}/>
+                                  </div>
+                    )
+                  }
+                </p>
+
+                <p class="text-xl font-normal text-center px-10 mt-4 italic">
+                  {description}
+                </p>
+
+                <hr/>
+            </div>
+
+            <slot/>
+        </div>
+    </article>
+</main>
+<Footer/>
+</body>
+</html>
