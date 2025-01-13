@@ -221,7 +221,7 @@ studio.
 Finally, if the ideas in this post have made you think, please share it with your community, it will mean the world to
 me ❤️.
 
-# Inspirations
+# Inspiration
 
 The key inspiration for this journey is... people with whom I talk, I can't name them all but one deserves her own spot
 in this post: my wife [Ali](https://www.linkedin.com/in/aliciacarbajalzapater/), who showed me with her leadership that

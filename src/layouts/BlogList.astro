@@ -19,7 +19,7 @@ type Post = CollectionEntry<'blog' | 'drafts'>
 </head>
 <body>
 <Header/>
-<main>
+<main class="md:px-2 px-1">
     <section>
         <ul>
           {
@@ -36,7 +36,7 @@ type Post = CollectionEntry<'blog' | 'drafts'>
                           <p class="mt-4 p-0 text-base font-light">
                               <FormattedDate date={post.data.pubDate}/>
                           </p>
-                          <p class="text-xl font-normal text-center px-10 w-3/4">
+                          <p class="text-xl font-normal text-center md:px-10 md:w-3/4 w-full">
                             {post.data.description}
                           </p>
                           <p class="text-center">
