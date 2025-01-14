@@ -47,4 +47,10 @@ const { title, description, image = '/blog-placeholder-1.jpg' } = Astro.props;
 <meta property="twitter:image" content={new URL(image, Astro.url)}/>
 
 <!-- Analytics with Pirsch -->
-<script defer src="https://api.pirsch.io/pa.js" id="pianjs" data-code="CSCSFxiIh0reJPy08mf4zM3iraL2sxMu"></script>
+<script defer
+        src="https://blog.analytics.serchinastico.com/pa.js"
+        id="pianjs"
+        data-code="CSCSFxiIh0reJPy08mf4zM3iraL2sxMu"
+        data-hit-endpoint="https://blog.analytics.serchinastico.com/hit"
+        data-event-endpoint="https://blog.analytics.serchinastico.com/event"
+        data-session-endpoint="https://blog.analytics.serchinastico.com/session"></script>
