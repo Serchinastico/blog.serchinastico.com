@@ -110,6 +110,19 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
                 font-weight: lighter;
                 font-size: 0.9em;
             }
+
+        }
+
+        .dark {
+            .prose {
+                h1, h2, h3, h4, p, ul, ol {
+                    color: #f0f0f0;
+                }
+
+                .footnote {
+                    color: #AAbbcc;
+                }
+            }
         }
     </style>
 </head>

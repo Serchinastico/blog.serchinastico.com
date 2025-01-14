@@ -28,9 +28,9 @@ type Post = CollectionEntry<'blog' | 'drafts'>
               const url = post.collection === "drafts" ? `/drafts/${post.id}/` : `/${post.id}/`
 
               return (
-                      <li class="mb-16 text-black no-underline flex justify-center items-center flex-col">
-                          <p class="font-black text-6xl md:text-8xl text-center mb-4 uppercase"><a
-                                  class="no-underline text-black" href={url}>{post.data.title}</a></p>
+                      <li class="mb-16 text-black dark:text-white no-underline flex justify-center items-center flex-col">
+                          <p class="text-6xl md:text-8xl text-center mb-4 uppercase"><a
+                                  class="no-underline title" href={url}>{post.data.title}</a></p>
                           <a href={url}>
                               <Image width={720} height={400} src={post.data.heroImage!} alt={post.data.title}/>
                           </a>

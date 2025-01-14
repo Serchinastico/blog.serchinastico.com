@@ -1,12 +1,23 @@
 ---
 import { SITE_TITLE } from '../consts';
+import ThemeIcon from "./ThemeIcon.astro";
 ---
 
 <header>
     <nav class="px-8 py-4">
-        <div class="flex flex-row md:items-center items-start md:justify-start justify-center gap-2"><a
-                href="https://www.serchinastico.com" class="md:flex hidden"><img src="/logo.svg" width="48" height="48" alt="logo"></a>
-            <a class="h3 text-3xl uppercase mt-1 font-black text-black no-underline"
-               href="https://blog.serchinastico.com/">{SITE_TITLE}</a></div>
+        <div class="flex flex-row items-center md:justify-between justify-center gap-6">
+            <div class="flex flex-row items-center gap-2">
+                <a href="https://www.serchinastico.com" class="md:flex hidden">
+                    <img src="/logo.svg" width="48" height="48" alt="logo">
+                </a>
+                <a class="h3 text-3xl uppercase mt-1 font-black dark:text-black text-white no-underline"
+                   href="https://blog.serchinastico.com/">
+                  {SITE_TITLE}
+                </a>
+            </div>
+
+            <ThemeIcon/>
+        </div>
+
     </nav>
 </header>
