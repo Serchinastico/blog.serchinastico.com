@@ -1,6 +1,6 @@
 ---
 title: 'Road to Antropia'
-description: "Introducing Antropia, quick mobile prototyping at the reach of your fingertips"
+description: "The journey up to Antropia, why I changed the way I work and how I will proceed from here"
 summary: "What brought me to create a new software studio, my thoughts about how are we focusing work, and how I plan to bring change to the current paradigm"
 heroImage: "/antropia/hero.png"
 keywords: [ "App development", "React Native", "Prototyping", "App design", "Antropia" ]
