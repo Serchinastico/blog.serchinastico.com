@@ -196,9 +196,9 @@ turn Antropia into something bigger, one step at a time. And when it becomes so,
 these ideas.
 
 To be fully honest, I didn't start this journey with the idea of a cooperative in mind. I had the same fears others
-have: ***they don't work***. But the seed was planted, and I did my research. My current view is that it not only is the
-most democratic organizational model, it also has many successful stories
-(mandatory [Mondragon Corporation](https://en.wikipedia.org/wiki/Mondragon_Corporation) reference).
+have: ***they don't work***. But the seed was planted, and I did some research ([^1](https://journals.sagepub.com/doi/10.1177/001979391406700108), [^2](https://journals.sagepub.com/doi/abs/10.1177/001979399504900104), [^3](https://www.uk.coop/resources/what-do-we-really-know-about-worker-co-operatives)). 
+My current view is that it not only is the most democratic organizational model (doubling on the effort towards fairness), 
+it performs similarly to traditional companies, and can grow as much (mandatory [Mondragon Corporation](https://en.wikipedia.org/wiki/Mondragon_Corporation) reference).
 
 As a fun side note, I like to cite my own country's constitution
 (Spain),
