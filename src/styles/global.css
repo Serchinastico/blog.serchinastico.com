@@ -74,6 +74,10 @@ html.dark {
     color: #dfb047;
 }
 
+.dark .header {
+    color: #ffffff !important;
+}
+
 body {
     font-family: 'Atkinson', sans-serif;
     margin: 0;
