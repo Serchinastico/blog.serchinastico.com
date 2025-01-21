@@ -109,7 +109,7 @@ concepts that suit me well and are worth pursuing:
   I *own* it. In my career, I led projects like implementing SSO or securing emails but they were a "*small*" piece of
   the whole thing. I want **wide projects**, and feel accountable for them.
 - **Progress**: Solving the same problems over and over again ends up being unfun. Even when the domain changes, I
-  always end up implementing a sign up page, a place to store data, notifications and i18n; to name a few. The
+  always end up implementing a signup page, a place to store data, notifications and i18n; to name a few. The
   automation required to make these things easier on each iteration is a challenge I particularly love. **Tooling**
   makes me feel things are improving with each project, that I learned something new and applied it.
 - **Fairness**: The physical benefit of your work is money, in one or more of its many forms, to cover your needs. I
@@ -129,9 +129,8 @@ concepts that suit me well and are worth pursuing:
   that doesn't forcefully categorize workers into classes. Every worker should have a voice in how the
   place they spend so much of their time it's managed.
 - **Satisfaction**: Work should be fulfilling. This has everything to do with working hours. I tried them all:
-  part-time (4 to 6 hours a day), 4 day week and the full range in between. Here is the interesting part: By **working
-  less
-  hours** I managed to be [*in the zone*](https://en.wikipedia.org/wiki/Flow_(psychology)) more often and for longer
+  part-time (4 to 6 hours a day), 4-day week and the full range in between. Here is the interesting part: By **working
+  less hours** I managed to be [*in the zone*](https://en.wikipedia.org/wiki/Flow_(psychology)) more often and for longer
   periods, with little to no changes in productivity. All while having more time for my personal life: developing other
   areas of interest, spending time with my wife and dogs, you name it.
 - **Impact**: I came to realise most of the work I do has little impact in today's world. I want to change this. I can't

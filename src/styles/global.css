@@ -41,8 +41,13 @@ html.dark {
     background-color: #0f0f0f;
 }
 
+.dark b,
+.dark strong {
+    color: #ffffff;
+}
+
 .dark p, ul, ol {
-    color: #f0f0f0;
+    color: #d4d4d4;
 }
 
 .title {
@@ -182,6 +187,31 @@ blockquote {
 hr {
     border: none;
     border-top: 1px solid rgb(var(--gray-light));
+}
+
+.dark p.footnotes-header {
+    color: #aaaaaa;
+}
+
+p.footnotes-header {
+    margin-top: 2em;
+    margin-bottom: 0 !important;
+    font-size: 1em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #0d0d0d;
+}
+
+.footnotes ol li::marker {
+    color: #bf8007;
+}
+
+.dark .footnotes ol li::marker {
+    color: #dfb047;
+}
+
+.dark p.footnotes-header {
+    color: #dfb047 !important;
 }
 
 @media (max-width: 720px) {
