@@ -5,8 +5,7 @@ import sitemap from '@astrojs/sitemap';
 
 import tailwind from '@astrojs/tailwind';
 
-// https://astro.build/config
 export default defineConfig({
-    site: 'https://astroblog.serchinastico.com',
+    site: 'https://blog.serchinastico.com',
     integrations: [mdx(), sitemap(), tailwind()],
 });
