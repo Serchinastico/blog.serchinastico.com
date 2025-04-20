@@ -5,101 +5,102 @@
  */
 
 :root {
-    --accent-light: #dfb047;
-    --accent: #bf8007;
-    --accent-dark: #8f4007;
-    --black: 15, 18, 25;
-    --gray: 96, 115, 159;
-    --gray-light: 229, 233, 240;
-    --gray-dark: 34, 41, 57;
-    --gray-gradient: rgba(var(--gray-light), 50%), #fff;
-    --box-shadow: 0 2px 6px rgba(var(--gray), 25%), 0 8px 24px rgba(var(--gray), 33%),
-    0 16px 32px rgba(var(--gray), 33%);
+  --accent-light: 223, 176, 71;
+  --accent: 191, 128, 7;
+  --accent-dark: 143, 64, 7;
+  --black: 15, 18, 25;
+  --gray: 96, 115, 159;
+  --gray-light: 229, 233, 240;
+  --gray-dark: 34, 41, 57;
+  --gray-gradient: rgba(var(--gray-light), 50%), #fff;
+  --box-shadow: 0 2px 6px rgba(var(--gray), 25%),
+    0 8px 24px rgba(var(--gray), 33%), 0 16px 32px rgba(var(--gray), 33%);
 }
 
 @font-face {
-    font-family: 'Atkinson';
-    src: url('/fonts/atkinson-regular.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Atkinson";
+  src: url("/fonts/atkinson-regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Atkinson';
-    src: url('/fonts/atkinson-bold.woff') format('woff');
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Atkinson";
+  src: url("/fonts/atkinson-bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
 
 html {
-    background-color: #fffbf0;
+  background-color: #fffbf0;
 }
 
 html.dark {
-    background-color: #0f0f0f;
+  background-color: #0f0f0f;
 }
 
 .dark b,
 .dark strong {
-    color: #ffffff;
+  color: #ffffff;
 }
 
-.dark p, ul, ol {
-    color: #d4d4d4;
+.dark p,
+ul,
+ol {
+  color: #d4d4d4;
 }
 
 .title {
-    color: #0d0d0d;
+  color: #0d0d0d;
 }
 
 .dark .title {
-    color: #f0f0f0;
+  color: #f0f0f0;
 }
 
 .dark .title:hover {
-    color: #dfb047;
+  color: rgb(var(--accent-light));
 }
 
 .dark p.footnote {
-    color: #aaa;
+  color: #aaa;
 }
 
 .dark .h3 {
-    color: #f0f0f0;
+  color: #f0f0f0;
 }
 
 .dark a {
-    color: #dfb047;
+  color: rgb(var(--accent-light));
 }
 
 .dark .header {
-    color: #ffffff !important;
+  color: #ffffff !important;
 }
 
 body {
-    font-family: 'Atkinson', sans-serif;
-    margin: 0;
-    padding: 0;
-    text-align: left;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    color: rgb(var(--gray-dark));
-    font-size: 20px;
-    line-height: 1.7;
+  font-family: "Atkinson", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  color: rgb(var(--gray-dark));
+  font-size: 20px;
+  line-height: 1.7;
 }
 
-
 main {
-    width: 1024px;
-    max-width: calc(100% - 2em);
-    margin: auto;
-    padding: 3em 1em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
+  width: 1024px;
+  max-width: calc(100% - 2em);
+  margin: auto;
+  padding: 3em 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
 }
 
 h1,
@@ -108,140 +109,173 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0 0 0.5rem 0;
-    color: rgb(var(--black));
-    line-height: 1.2;
+  margin: 0 0 0.5rem 0;
+  color: rgb(var(--black));
+  line-height: 1.2;
 }
 
 h1 {
-    font-size: 3.052em;
+  font-size: 3.052em;
 }
 
 h2 {
-    font-size: 2.441em;
+  font-size: 2.441em;
 }
 
 h3 {
-    font-size: 1.953em;
+  font-size: 1.953em;
 }
 
 h4 {
-    font-size: 1.563em;
+  font-size: 1.563em;
 }
 
 h5 {
-    font-size: 1.25em;
+  font-size: 1.25em;
 }
 
 strong,
 b {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 a {
-    color: var(--accent);
-    font-weight: 600;
-    text-decoration: underline;
+  color: rgb(var(--accent));
+  font-weight: 600;
+  text-decoration: underline;
 }
 
 a:hover {
-    color: var(--accent-light);
+  color: rgb(var(--accent-light));
 }
 
 p {
-    margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
-p, ul, ol {
-    color: #0d0d0d;
+p,
+ul,
+ol {
+  color: #0d0d0d;
 }
 
 .prose p {
-    margin-bottom: 2em;
+  margin-bottom: 2em;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
 
 code {
-    padding: 2px 5px;
-    background-color: rgb(var(--gray-light));
-    border-radius: 2px;
+  padding: 2px 5px;
+  background-color: rgb(var(--gray-light));
+  border-radius: 2px;
+  font-size: 0.85em;
 }
 
 pre {
-    padding: 1.5em;
-    border-radius: 8px;
+  padding: 1.5em;
+  border-radius: 8px;
 }
 
 pre > code {
-    all: unset;
+  all: unset;
 }
 
 blockquote {
-    border-left: 4px solid var(--accent);
-    padding: 0 0 0 20px;
-    margin: 0px;
-    font-size: 1.333em;
+  border-left: 4px solid rgb(var(--accent));
+  padding: 0 0 0 20px;
+  margin: 0px;
+  font-size: 1.333em;
 }
 
 hr {
-    border: none;
-    border-top: 1px solid rgb(var(--gray-light));
+  border: none;
+  border-top: 1px solid rgb(var(--gray-light));
+}
+
+.dark hr {
+  border: none;
+  border-top: 1px solid rgb(var(--gray-dark));
+}
+
+sup {
+  margin-left: 2px;
 }
 
 .dark p.footnotes-header {
-    color: #aaaaaa;
+  color: #aaaaaa;
 }
 
 p.footnotes-header {
-    margin-top: 2em;
-    margin-bottom: 0 !important;
-    font-size: 1em;
-    font-weight: bolder;
-    text-transform: uppercase;
-    color: #0d0d0d;
+  margin-top: 2em;
+  margin-bottom: 0 !important;
+  font-size: 1em;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #0d0d0d;
 }
 
 .footnotes ol li::marker {
-    color: #bf8007;
+  font-size: 0.85em;
+  color: rgb(var(--accent));
+}
+
+.footnotes ol li p {
+  font-size: 0.85em;
+  margin-bottom: 0 !important;
 }
 
 .dark .footnotes ol li::marker {
-    color: #dfb047;
+  color: rgb(var(--accent-light)) !important;
 }
 
 .dark p.footnotes-header {
-    color: #dfb047 !important;
+  color: rgb(var(--accent-light)) !important;
+}
+
+div[data-remark-code-title] {
+  color: rgb(var(--accent-light));
+  font-weight: 500;
+  background-color: #24292e;
+  margin-bottom: -1.3em;
+  border-radius: 8px;
+  padding: 0.25em 1em;
+  text-decoration: underline;
+  width: fit-content;
+}
+
+.dark div[data-remark-code-title] {
+  color: rgb(var(--accent-light));
 }
 
 @media (max-width: 720px) {
-    body {
-        font-size: 18px;
-    }
+  body {
+    font-size: 18px;
+  }
 
-    main {
-        padding: 1em;
-    }
+  main {
+    padding: 1em;
+  }
 }
 
 .sr-only {
-    border: 0;
-    padding: 0;
-    margin: 0;
-    position: absolute !important;
-    height: 1px;
-    width: 1px;
-    overflow: hidden;
-    /* IE6, IE7 - a 0 height clip, off to the bottom right of the visible 1px box */
-    clip: rect(1px 1px 1px 1px);
-    /* maybe deprecated but we need to support legacy browsers */
-    clip: rect(1px, 1px, 1px, 1px);
-    /* modern browsers, clip-path works inwards from each corner */
-    clip-path: inset(50%);
-    /* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
-    white-space: nowrap;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  /* IE6, IE7 - a 0 height clip, off to the bottom right of the visible 1px box */
+  clip: rect(1px 1px 1px 1px);
+  /* maybe deprecated but we need to support legacy browsers */
+  clip: rect(1px, 1px, 1px, 1px);
+  /* modern browsers, clip-path works inwards from each corner */
+  clip-path: inset(50%);
+  /* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
+  white-space: nowrap;
 }
