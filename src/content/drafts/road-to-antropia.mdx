@@ -4,8 +4,13 @@ description: "The journey up to Antropia, why I changed the way I work and how I
 summary: "What brought me to create a new software studio, my thoughts about how are we focusing work, and how I plan to bring change to the current paradigm"
 heroImage: "/antropia/hero.png"
 keywords: [ "App development", "React Native", "Prototyping", "App design", "Antropia" ]
-pubDate: 'Jan 08 2025'
+pubDate: 'Apr 21 2025'
 ---
+
+
+
+
+import ColorChanger from '../../components/ColorChanger.astro'
 
 **TL;DR**: In my pursuit of the perfect job, I created Antropia, a cooperative software development studio focused on
 prototyping mobile apps, aligned with my vision on work.
@@ -14,7 +19,7 @@ prototyping mobile apps, aligned with my vision on work.
 
 I want to start this post by acknowledging this is not my classic tech-*ish* post where I talk about a problem, I solve
 it somehow, and I write the key takeaways. **This post is personal, it's raw, and it's definitely not
-techy**. 
+techy**.
 
 This post is all about how I envision my perfect job, my personal vision on the future of work in the tech industry and how I
 want to contribute to see this future change.
@@ -49,23 +54,23 @@ eventually more sophisticated ones arised. As an example, I condensed here some 
 - What is *meaningful* work?
 - What motivates work?
 - What are the intrinsical motivators (e.g. satisfaction, pride, learning, etc.) and extrinsical motivators (e.g.,
-  validation, salary, promotions, etc). Which ones are effective and which ones aren't? Why?
+validation, salary, promotions, etc). Which ones are effective and which ones aren't? Why?
 - Why are some of these motivators kept private (i.e. salary) while others are openly talked about? Why are we only
-  *allowed* to
-  talk about the ones that makes us look like better employees? - Not that it's forbidden but that is not well looked
-  upon.
+*allowed* to
+talk about the ones that makes us look like better employees? - Not that it's forbidden but that is not well looked
+upon.
 - What does risk mean?
 - How is work compensated? How is risk compensated? Is it fair?
 - How are shares distributed? Why often so unevenly?
 - What is truly urgent in a tech job? Is there such a thing as *artificial* urgency?
 - Why do we work the amount of time we work? Why 8 hours a day and 5 days a week? Why a fixed number of annual
-  vacations?
+vacations?
 - Why do we keep working long hours even if it's been proven it often backfires, making us less efficient, less happy,
-  and more frustrated?
+and more frustrated?
 - Why are different types of work (e.g. technical, managerial, tactical, strategic, etc) differently compensated? Does
-  it have to do with employee replacement cost?
+it have to do with employee replacement cost?
 - Why do we keep splitting and silo'ing work? KPIs/OKRs ⇒ teams ⇒ projects ⇒ sprints ⇒ tasks; each with their separate
-  owners.
+owners.
 - Why is work structured in such a way?
 - Are there better ways to do any of this?
 
@@ -101,47 +106,48 @@ mobile apps, and exploring how I could make a living in a way that made sense to
 variables that'd be worth pursuing for me personally:
 
 - **Novelty**: We usually need a breath of fresh air from time to time, face new challenges, learn concepts, etc.
-  Novelty is a powerful engine, it puts us in motion, and, in my case, it's perhaps my main motivator. To keep this
-  going, I need to work on **short projects**.
+Novelty is a powerful engine, it puts us in motion, and, in my case, it's perhaps my main motivator. To keep this
+going, I need to work on **short projects**.
 - **Pride**: I want to feel proud of my work, and the only way to achieve that is if I feel fully responsible for it and
-  I *own* it. In my career, I led projects like implementing SSO or securing emails but they were a "*small*" piece of
-  the whole thing. I want **wide projects**, and feel accountable for them.
+I *own* it. In my career, I led projects like implementing SSO or securing emails but they were a "*small*" piece of
+the whole thing. I want **wide projects**, and feel accountable for them.
 - **Progress**: Solving the same problems over and over again ends up being unfun. Even when the domain changes, I
-  always end up implementing a signup page, a place to store data, notifications, and i18n; to name a few. The
-  automation required to make these things easier on each iteration is a challenge I particularly love. **Tooling**
-  makes me feel things are improving with each project, that I learned something new and applied it.
+always end up implementing a signup page, a place to store data, notifications, and i18n; to name a few. The
+automation required to make these things easier on each iteration is a challenge I particularly love. **Tooling**
+makes me feel things are improving with each project, that I learned something new and applied it.
 - **Fairness**: The physical benefit of your work is money, in one or more of its many forms, to cover your needs. I
-  have grown distrustful of compensation mechanics in tech jobs. Some (not all) of the concerns I have are:
-    - Bonuses soon turn into politic games.
-    - Artificial competition:
-      Target rate for annual turnovers (pushing for ["hire to fire"](https://www.inc.com/jason-aten/amazons-controversial-hire-to-fire-practice-reveals-a-brutal-truth-about-management.html) practices) or fixed bonus pool policies to encourage _fighting_ for your share.
-    - Company shares are used as a carrot on a stick to either keep employees in golden handcuffs if the company
-      is public, or as a promise of a rich future otherwise.
-    - Different roles having substantially different salaries, even when those roles are equally important for the
-      outcomes of the company.
-    - Adjusted salary by location — effectively detaching it from your productivity/impact.
+have grown distrustful of compensation mechanics in tech jobs. Some (not all) of the concerns I have are:
+- Bonuses soon turn into politic games.
+- Artificial competition:
+Target rate for annual turnovers (pushing for ["hire to fire"](https://www.inc.com/jason-aten/amazons-controversial-hire-to-fire-practice-reveals-a-brutal-truth-about-management.html) practices) or fixed bonus pool policies to encourage _fighting_ for your share.
+- Company shares are used as a carrot on a stick to either keep employees in golden handcuffs if the company
+is public, or as a promise of a rich future otherwise.
+- Different roles having substantially different salaries, even when those roles are equally important for the
+outcomes of the company.
+- Adjusted salary by location — effectively detaching it from your productivity/impact.
 
-  There has to be a better way to pay for our work, one that aligns with our results and reflects our efforts. Also, one
-  that doesn't forcefully categorize workers into classes. Every worker should have a voice in how the
-  place they spend so much of their time is managed.
+There has to be a better way to pay for our work, one that aligns with our results and reflects our efforts. Also, one
+that doesn't forcefully categorize workers into classes. Every worker should have a voice in how the
+place they spend so much of their time is managed.
 - **Satisfaction**: Work should be fulfilling. This has everything to do with working hours. I tried them all:
-  part-time (4 to 6 hours a day), 4-day week, and the full range in between. Here is the interesting part: By **working
-  less hours** I managed to be [*in the zone*](https://en.wikipedia.org/wiki/Flow_(psychology)) more often and for longer
-  periods, with little to no changes in productivity. All while having more time for my personal life: developing other
-  areas of interest, spending time with my wife and dogs, you name it.
+part-time (4 to 6 hours a day), 4-day week, and the full range in between. Here is the interesting part: By **working
+less hours** I managed to be [*in the zone*](https://en.wikipedia.org/wiki/Flow_(psychology)) more often and for longer
+periods, with little to no changes in productivity. All while having more time for my personal life: developing other
+areas of interest, spending time with my wife and dogs, you name it.
 - **Impact**: I came to realise most of the work I do has little impact in today's world. I want to change this. I can't
-  always decide the kind of projects I take to walk towards this goal, specially when starting. What I've done instead
-  is to sign the [*Giving What We Can*](https://www.givingwhatwecan.org/pledge) pledge. No matter the projects I tackle,
-  I ensured each one of them will help others in need.
+always decide the kind of projects I take to walk towards this goal, specially when starting. What I've done instead
+is to sign the [*Giving What We Can*](https://www.givingwhatwecan.org/pledge) pledge. No matter the projects I tackle,
+I ensured each one of them will help others in need.
 - **Organicity**: I truly believe there are as many roles as persons are in this world. Someone might tag me as *just* a
-  software developer, but I see myself as much more. It took me ages to embrace my generalist skills, and now I finally
-  feel comfortable enough to safely explore other domains like design, product, security, or marketing (also carpentry,
-  artistry, or cooking, to name a few). From my experience, the best teams are those that work under this assumption, and
-  are composed by **curious, multi-skilled individuals**, better yet when they are **purposefully small**.
+software developer, but I see myself as much more. It took me ages to embrace my generalist skills, and now I finally
+feel comfortable enough to safely explore other domains like design, product, security, or marketing (also carpentry,
+artistry, or cooking, to name a few). From my experience, the best teams are those that work under this assumption, and
+are composed by **curious, multi-skilled individuals**, better yet when they are **purposefully small**.
 
 This list of variables (you probably noticed I don't call them principles nor values, because strictly speaking,
-they aren't) isn't closed, but the ideas I wrote here have now become part of my ***ethos***. And it's now my goal to 
+they aren't) isn't closed, but the ideas I wrote here have now become part of my ***ethos***. And it's now my goal to
 create a vehicle that helps me with this purpose. That thing is ***Antropia***.
+
 
 # What is Antropia?
 
@@ -151,53 +157,68 @@ found to openly talk about different ways of working and discussing alternative 
 
 Because these ideas are centered into work, Antropia will be my way of materializing them:
 
-- **Novelty**: Antropia focuses on the initial steps of your projects. I create mobile apps and functional prototypes.
-  Do you need to show your idea to investors? Maybe you need to kick off your project while you hire an in-house
-  team. There is only one hard requirement: **projects can't last longer than a couple of months**.
-- **Pride**: I do mobile apps, but I can also do web, backend, and design. I thrive when I have the full picture, and
-  the best way to do this is by picking **entire projects**, rather than features. Extra points if there are multiple
-  complicated parts involved. I believe when these requirements are met something magical emerges: **true ownership**.
-- **Progress**: I work in my own tooling that eases and solves the different problems I encounter. While others look for
-  continuous integration and deployment, I look for continuous improvement (not exclusively 😅, I also do the former).
-  Needless to say, it only makes sense for the **tooling** I develop to be **open-source**. In the end, it's not the
-  tooling itself that gives value, it's the community behind it.
-- **Fairness**: There are two ways to look at this: externally and internally. One way to be externally fair is to be
-  totally transparent: I work on a fixed rate for all clients, **no bargaining**. On the other hand, internal fairness
-  is quite a challenge and is probably the policy that will take longer to be developed if only because it's just me
-  for now. One thing is clear: it'll be up to all workers-shareholders to decide what'll be the best compensation for
-  our own work. Everyone will have a voice, and everyone's voice will carry the same weight, hence a
-  **cooperative model**.
+- **Novelty**: Antropia focuses on the initial steps of your projects. I create mobile apps and functional
+prototypes.
+Do you need to show your idea to investors? Maybe you need to kick off your project while you hire an in-house
+team. There is only one hard requirement: **projects can't last longer than a couple of months**.
+- **Pride**: I do mobile apps, but I can also do web, backend, and design. I thrive when I have the full picture,
+and
+the best way to do this is by picking **entire projects**, rather than features. Extra points if there are multiple
+complicated parts involved. I believe when these requirements are met something magical emerges: **true ownership**.
+- **Progress**: I work in my own tooling that eases and solves the different problems I encounter. While others look
+for
+continuous integration and deployment, I look for continuous improvement (not exclusively 😅, I also do the former).
+Needless to say, it only makes sense for the **tooling** I develop to be **open-source**. In the end, it's not the
+tooling itself that gives value, it's the community behind it.
+- **Fairness**: There are two ways to look at this: externally and internally. One way to be externally fair is to
+be
+totally transparent: I work on a fixed rate for all clients, **no bargaining**. On the other hand, internal fairness
+is quite a challenge and is probably the policy that will take longer to be developed if only because it's just me
+for now. One thing is clear: it'll be up to all workers-shareholders to decide what'll be the best compensation for
+our own work. Everyone will have a voice, and everyone's voice will carry the same weight, hence a
+**cooperative model**.
 - **Satisfaction**: I'll keep exploring my options (maybe I will never stop doing it) but one thing is certain: the
-  40-hour week is not for me, and therefore it's not for Antropia. Once other voices join the team, we will collectively
-  decide what's the best option. I have the feeling everyone will have their preference, and we will have to find a
-  compromise, as long as it implies **working fewer hours**. I know this might sound like one of the hardest sells but,
-  I have surprise for you... I have already done it and the results are better than everyone expected.
-- **Impact**: Because I joined [Giving What We Can](https://www.givingwhatwecan.org/), Antropia has joined it as well.
-  That means 10% of the studio's income will be donated to the organisations that can most effectively use it to improve
-  the lives of others. On top of that, when - or if - there are conflicting schedules for projects, I will favor those
-  that better aligns with these points.
+40-hour week is not for me, and therefore it's not for Antropia. Once other voices join the team, we will
+collectively
+decide what's the best option. I have the feeling everyone will have their preference, and we will have to find a
+compromise, as long as it implies **working fewer hours**. I know this might sound like one of the hardest sells
+but,
+I have surprise for you... I have already done it and the results are better than everyone expected.
+- **Impact**: Because I joined [Giving What We Can](https://www.givingwhatwecan.org/), Antropia has joined it as
+well.
+That means 10% of the studio's income will be donated to the organisations that can most effectively use it to
+improve
+the lives of others. On top of that, when - or if - there are conflicting schedules for projects, I will favor those
+that better aligns with these points.
 - **Organicity**: This is still not applicable but the mechanisms that better resemble this principle are those of a
-  "[*teal organisation*](https://reinventingorganizationswiki.com/en/theory/teal-paradigm-and-organizations/)".
-  Self-organization and self-management over traditional hierarchies. An organization model that act as a purposeful
-  living organism, one that reacts to signals, and adapts to changes in the environment. If that sounds abstract it's
-  because it is. As with the cooperative model, this will be hopefully explored in the future, when others join the
-  team.
+"[*teal organisation*](https://reinventingorganizationswiki.com/en/theory/teal-paradigm-and-organizations/)".
+Self-organization and self-management over traditional hierarchies. An organization model that act as a purposeful
+living organism, one that reacts to signals, and adapts to changes in the environment. If that sounds abstract it's
+because it is. As with the cooperative model, this will be hopefully explored in the future, when others join the
+team.
 
 ## A coop of one — Why a cooperative?
 
 It has to be a joke, right? You might be thinking a cooperative of one doesn't make any sense. And you would be 99%
-right. But there is still that missing 1%, that represents my hopes for this new project. It's my public commitment to
+right. But there is still that missing 1%, that represents my hopes for this new project. It's my public commitment
+to
 turn Antropia into something bigger, one step at a time. And when it becomes so, it will do it under the umbrella of
 these ideas.
 
 To be fully honest, I didn't start this journey with the idea of a cooperative in mind. I had the same fears others
-have: ***they don't work***. But the seed was planted, and I did some research ([^1](https://journals.sagepub.com/doi/10.1177/001979391406700108), [^2](https://journals.sagepub.com/doi/abs/10.1177/001979399504900104), [^3](https://www.uk.coop/resources/what-do-we-really-know-about-worker-co-operatives)). 
-My current view is that it not only is the most democratic organizational model (doubling on the effort towards fairness), 
-it performs similarly to traditional companies, and can grow as much (mandatory [Mondragon Corporation](https://en.wikipedia.org/wiki/Mondragon_Corporation) reference).
+have: ***they don't work***. But the seed was planted, and I did some research
+([^1](https://journals.sagepub.com/doi/10.1177/001979391406700108),
+[^2](https://journals.sagepub.com/doi/abs/10.1177/001979399504900104),
+[^3](https://www.uk.coop/resources/what-do-we-really-know-about-worker-co-operatives)).
+My current view is that it not only is the most democratic organizational model (doubling on the effort towards
+fairness),
+it performs similarly to traditional companies, and can grow as much (mandatory [Mondragon
+Corporation](https://en.wikipedia.org/wiki/Mondragon_Corporation) reference).
 
 As a fun side note, I like to cite my own country's constitution
 (Spain),
-[article 129.2](https://www.senado.es/web/conocersenado/normas/constitucion/detalleconstitucioncompleta/index.html?lang=en#t7):
+[article
+129.2](https://www.senado.es/web/conocersenado/normas/constitucion/detalleconstitucioncompleta/index.html?lang=en#t7):
 
 > *The public authorities shall efficiently promote the various forms of participation within companies and
 shall **encourage cooperative societies** by means of appropriate legislation. They shall also establish means
@@ -207,24 +228,33 @@ Emphasis mine, but not really needed.
 
 # The near future
 
-I expected a slower start, but we are booked until June. In the meantime, if you need to develop a mobile prototype, let
-us know. I work in React Native and Typescript and I can help you publish your app in the stores. If you need a design
-for your app, or maybe a backend and a subscription webpage to get people interested in your idea, I got you covered.
+I expected a slower start, but we are booked until June. In the meantime, if you need to develop a mobile prototype,
+let
+us know. I work in React Native and Typescript and I can help you publish your app in the stores. If you need a
+design
+for your app, or maybe a backend and a subscription webpage to get people interested in your idea, I got you
+covered.
 Visit [antropia.studio](https://antropia.studio) and drop me a message, or email me to hi \{at\} antropia \{dot\}
 studio.
 
-Finally, if the ideas in this post have made you think, please share it with your community; it will mean the world to
+Finally, if the ideas in this post have made you think, please share it with your community; it will mean the world
+to
 me ❤️.
 
 # Inspiration
 
-The key inspiration for this journey is... people with whom I talk, I can't name them all but one deserves her own spot
-in this post: my wife [Ali](https://www.linkedin.com/in/aliciacarbajalzapater/), who showed me with her leadership that
-it all comes down to humans. People over deadlines, people over pressures, people over evaluations. When we don't run
+The key inspiration for this journey is... people with whom I talk, I can't name them all but one deserves her own
+spot
+in this post: my wife [Ali](https://www.linkedin.com/in/aliciacarbajalzapater/), who showed me with her leadership
+that
+it all comes down to humans. People over deadlines, people over pressures, people over evaluations. When we don't
+run
 things for people (or dogs 🐕) we lose our essence.
 
-I also list here the non-personal resources that inspired me the most during this time of change. Some ideas have a very
-clear 1-to-1 correspondence with the concepts exposed in these references, others are more vague but have anyways earned
+I also list here the non-personal resources that inspired me the most during this time of change. Some ideas have a
+very
+clear 1-to-1 correspondence with the concepts exposed in these references, others are more vague but have anyways
+earned
 their place in the list:
 
 - `Book` **Zen and the Art of Motorcycle Maintenance** by *Robert M. Pirsig*
@@ -232,9 +262,12 @@ their place in the list:
 - `Book` **The Tyranny of Merit** by *Michael J. Sandel*
 - `Book` **The Burnout Society** by *Byung-Chul Han*
 - `Book` **Reinventing Organizations** by *Frederic Laloux* -
-  Thanks, [Nuria](https://bsky.app/profile/pantojacoder.bsky.social)
+Thanks, [Nuria](https://bsky.app/profile/pantojacoder.bsky.social)
 - `Talk` **Principles of Technology Leadership** by *Bryan Cantrill* - Thanks, [Abdallah](https://x.com/aabedraba)
 - `Book` **Capital in the Anthropocene** by *Kohei Saito*
 - `Novel` **The Dispossessed** by *Ursula K. Le Guin*
 - `Novel` **Remembrance of Earth's Past trilogy** by *Liu Cixin*
 - `Game` **Outer Wilds** by *Mobius Digital*
+
+
+<ColorChanger/>
